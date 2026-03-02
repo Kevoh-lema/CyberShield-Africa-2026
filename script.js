@@ -10,7 +10,12 @@ const revealSection = () => {
 window.addEventListener("scroll", revealSection);
 revealSection(); // Initial call
 
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav-menu");
 
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
 // ===== Service Modals =====
 const services = {
   cybersecurity:{title:"🔐 Cybersecurity Solutions", content:"Launching soon. Join our waitlist.", extra:`<input type="email" placeholder="Enter your email"><button onclick="window.location.href='mailto:cybershieldafrica9@gmail.com?subject=Hi Cybersecurity Services'">Notify Me</button>`},
