@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberShield Africa</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="cybershield.jpeg">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo-container">
+    <img src="Logo.png" alt="CyberShield Africa Logo">
+    <span class="vertical-line"></span>
+    <span class="company-name">CyberShield Africa</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <!-- Video Background -->
+  <video autoplay muted loop class="hero-video">
+    <source src="cybershield video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <h2 class="hero-company-name">CyberShield Africa</h2>
+    <h1>Protecting, Designing & Empowering Your Digital Future</h1>
+    <p>Africa’s Trusted Cybersecurity & Digital Solutions Partner</p>
+    <div>
+      <button class="btn" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">Our Services</button>
+      <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Started</button>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <h2>About CyberShield Africa</h2>
+  <p>CyberShield Africa is a leading digital solutions and cybersecurity company dedicated to protecting, designing, and empowering businesses, institutions, and individuals across Africa. We specialize in providing secure digital solutions, creating impactful web and system applications, delivering strategic branding and marketing, and supporting government and corporate IT needs. Our mission is to safeguard your digital presence while driving innovation and efficiency.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="container service-grid">
+    <div class="service-card" onclick="openServiceModal('cybersecurity')">
+      <h3>🛡 Cybersecurity Solutions</h3>
+      <p>Protect your business from cyber threats.</p>
+    </div>
+    <div class="service-card" onclick="openServiceModal('web')">
+      <h3>🌐 Website & System Development</h3>
+      <p>Professional websites and systems for all sectors.</p>
+    </div>
+    <div class="service-card" onclick="openServiceModal('branding')">
+      <h3>📊 Digital Strategy & Branding</h3>
+      <p>Grow your brand digitally with impact.</p>
+    </div>
+    <div class="service-card" onclick="openServiceModal('government')">
+      <h3>🏢 Government & Corporate IT Support</h3>
+      <p>Reliable support for corporate & government services.</p>
+    </div>
+    <div class="service-card" onclick="openServiceModal('application')">
+      <h3>📄 Online Application & Consultancy</h3>
+      <p>Apply and manage online applications easily.</p>
+    </div>
+    <div class="service-card" onclick="openServiceModal('design')">
+      <h3>🎨 Graphic Design Services</h3>
+      <p>Professional graphics, posters, and branding.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Completed Projects</h2>
+  <div class="container projects-grid">
+    <img src="project logo.png" alt="Project 1">
+    <img src="project 3.jpg" alt="Project 2">
+    <img src="mark mca.jpg" alt="Project 3">
+    <img src="diani.png" alt="Project 4">
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-card">
+      <img src="client.jpeg" alt="Client 1">
+      <p>"CyberShield Africa transformed our digital presence with professionalism and speed."</p>
+      <h4>- Mark Koskei, Business Owner</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="client 3.jpeg" alt="Client 2">
+      <p>"Their cybersecurity approach gave us confidence and peace of mind."</p>
+      <h4>- Enock Talengo'o, School Director</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="client 4.png" alt="Client 3">
+      <p>"The website they built for us is modern, responsive, and secure."</p>
+      <h4>- Dr. Daniel Kipsanga, Entrepreneur</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="client 5.jpg" alt="Client 4">
+      <p>"Very professional team. Fast response and excellent IT support services."</p>
+      <h4>- Erastus Tampushi, TUSA President</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="client 6.jpg" alt="Client 5">
+      <p>"Their branding and digital strategy boosted our online engagement significantly."</p>
+      <h4>- Byron Musoda, Marketing Expert</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="tmk.JPG" alt="Client 6">
+      <p>"Highly reliable for government and compliance services. Smooth process."</p>
+      <h4>- Julius Tumuka, Consultant</h4>
+    </div>
+
+  </div>
+</section>
+<!-- Team Section -->
+<section id="team">
+  <h2>Our Team</h2>
+  <div class="container team-grid">
+    <div class="team-member">
+      <img src="The CEO.jpg" alt="CEO">
+      <h3>Koskei Kevin</h3>
+      <p>CEO</p>
+    </div>
+    <div class="team-member"><img src="sec.jpeg" alt="Staff"><h3>Keziah Naipanoi</h3><p>Graphic Designer</p></div>
+    <div class="team-member"><img src="ui.jpg" alt="Staff"><h3>Mary Wanjiku</h3><p>UI/UX Designer</p></div>
+    <div class="team-member"><img src="digital.jpg" alt="Staff"><h3>Gedion Njoroge</h3><p>Marketing Lead</p></div>
+    <div class="team-member"><img src="cyber.jpg" alt="Staff"><h3>Dominic Koriri</h3><p>Cybersecurity Analyst</p></div>
+    
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>Phone: <a href="tel:+254794494384">+254 794 494 384</a></p>
+      <p>Email: <a href="mailto:cybershieldafrica9@gmail.com">cybershieldafrica9@gmail.com</a></p>
+      <p>Follow us:</p>
+      <p>
+        <a href="https://www.facebook.com/profile.php?id=61558428748139" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/koskei1105?igsh=MTdhcmI0OThucThtNA==" target="_blank">Instagram</a>
+      </p>
+    </div>
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button>Submit</button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 CyberShield Africa. All Rights Reserved.</p>
+  <p>
+    <a href="https://www.facebook.com/profile.php?id=61558428748139" target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/koskei1105?igsh=MTdhcmI0OThucThtNA==" target="_blank">Instagram</a>
+  </p>
+</footer>
+
+<!-- Service Modal -->
+<div id="serviceModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <p id="modalContent"></p>
+    <div id="modalExtra"></div>
+  </div>
+</div>
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/254794494384" target="_blank" class="floating-whatsapp">
+  <img src="WhatsApp.png" alt="WhatsApp">
+</a>
+<script src="script.js"></script>
+</body>
+</html>
